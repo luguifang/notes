@@ -10,6 +10,6 @@
         ![image](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p1.png)
 ## 六大组件在代码中的表现
         ![image](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p2.png)
-## 有关容器的内存结构
+## 容器的内存结构
         ![image](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p4.png)
         ![image](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p5.png)
