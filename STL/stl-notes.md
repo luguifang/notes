@@ -7,9 +7,9 @@
     适配器(adapter)
     仿函数(functors)
 ## 六大组件关系图
-        ![](https://github.com/luguifang/notes/tree/main/STL/image/p1.png)
+        ![](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p1.png)
 ## 六大组件在代码中的表现
-        ![](https://github.com/luguifang/notes/tree/main/STL/image/p2.png)
+        ![](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p2.png)
 ## 有关容器的内存结构
-        ![](https://github.com/luguifang/notes/tree/main/STL/image/p4.png)
-        ![](https://github.com/luguifang/notes/tree/main/STL/image/p5.png)
+        ![](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p4.png)
+        ![](https://raw.githubusercontent.com/luguifang/notes/main/STL/image/p5.png)
