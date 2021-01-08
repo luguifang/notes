@@ -18,3 +18,8 @@
     合成复用原则(Composite Reuse Principle, CRP)：尽量使用对象组合，而不是继承来达到复用的目的。
 ### 迪米特法则
     迪米特法则(Law of  Demeter, LoD)：一个软件实体应当尽可能少地与其他实体发生相互作用。
+
+## 设计模式分类
+### 组件协作
+    * 模板方法-Template Method
+ ![image](https://github.com/luguifang/notes/blob/main/Refactor/image/Template%20Method%20Pattern.png)
