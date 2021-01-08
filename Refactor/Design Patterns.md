@@ -21,10 +21,11 @@
 
 ## 设计模式分类
 ### 组件协作
-#### 模板方法-Template Method
+#### 模板方法-Template Method================================
+
  ![image](https://github.com/luguifang/notes/blob/main/Refactor/image/Template%20Method%20Pattern.png)
  
- 
-#### 策略模式-Strategy
- ![image](https://github.com/luguifang/notes/blob/main/Refactor/image/State%20Pattern.png)
+#### 策略模式-Strategy=======================================
+
+ ![image](https://github.com/luguifang/notes/blob/main/Refactor/image/Strategy%20Pattern.png)
     
