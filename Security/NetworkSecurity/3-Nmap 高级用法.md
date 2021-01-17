@@ -19,6 +19,18 @@
     closed | filtered:(关闭或者被过滤的):无法确定端口是关闭的还是被过滤的
 ## 3.1.3、nmap 用法示例
     语法: nmap [Scan Type(s)][Options]
-
-  
-    
+    * nmap -v 123.23.3.1 (扫描一台机器查看它打开的端口及详情)
+    * nmap -p 1-1024,8808,8809 (扫描某些端口和范围)
+    * namp -sS -O 123.23.3.1 (检测机器开放的端口和操作系统类型，-O 显示操作系统类型)
+    * 如何更隐藏的去扫描，频繁扫描会被屏蔽或者锁定IP地址:
+        --randomize_hosts 随机扫描，对目标主机的顺序随机划分
+        --scan-delay 延时扫描，单位秒，调整探针之间的延迟
+    nmap -v --randomize-hosts --scan-delay 3000ms -p 80192.168.1.62-69
+    * 使用通配符指定IP地址：
+        nmap -v --randomize-hosts --scan-delay 30 -p 80 1.*.2.3-8
+     * -A|-sV 操作系统及软件版本探测
+     * -sn ping 扫描
+     * -sn --traceroute ping 扫描及路由追踪
+     * -F 快速扫描
+     
+## 3.2 使用dnmap分布式集群执行大量扫描任务
