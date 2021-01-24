@@ -23,5 +23,23 @@
 ## 4.2.1 Metasploitable2 靶机系统介绍
     Metasploitable2虚拟系统是一个特别制作的ubuntu 操作系统，本身设计作为安全工具测试和演示常见漏洞攻击。版本2已经可以下载，并且比上一个版本包含更多可利用的安全漏洞。这个版本的虚拟系统兼容VMware，VirtualBox和其他虚拟平台。
     默认用户名密码：msfadmin msfadmin
--
+# 4.3 metasploit 基本命令
+    * 依赖于postgresql 数据库，通过命令行启动时需要先启动数据库
+## 4.3.1 命令分类
+    通过help查看帮助，可以对msf有个整体认识，可以看到msf相关命令可以分成以下类型:
+    * Core Commands  核心命令
+    * Module Commands  模块命令
+    * Job Commands  后台任务命令
+    * Resource Script Commands  资源脚本命令
+    * Database Backend Commands  数据库后端命令
+    * Credentials Backend Commands  证书/凭证后端命令
+    * Developer Commands  开发人员命令
+    
+## 4.3.2 常用命令
+
+# 4.4 攻击步骤
+    * use exploit ->  set option(端口、ip地址等) -> set payload ->  set payload的监听地址和端口 -> run
+![image](https://github.com/luguifang/notes/blob/main/Security/NetworkSecurity/image/7.png)
+    
+
 
