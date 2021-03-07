@@ -82,8 +82,11 @@ public:
   }
 }
 
-  
-  
-  
-  
 ```
+
+## G4.9+ vector
+### 架构图
+![image](https://github.com/luguifang/notes/blob/main/STL/image/p12.jpg)
+### 源代码
+https://github.com/luguifang/notes/blob/main/STL/source-code/gun-5.4.0-stl/stl_vector.h
+
